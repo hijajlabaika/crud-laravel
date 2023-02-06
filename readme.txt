@@ -4,4 +4,7 @@
 4. setelah itu ketik "composer install" (untuk menginstall package composer yang ada di project)
 5. buat database baru
 6. import file SQL ke database atau jalankan perintah migrate
-7. lalu jalankan project dengan ketik php artisan serve
+7. copy file .env.example lalu rename menjadi ".env"
+8. Lalu ubah nama databasenya pada file .env
+9. setelah itu jalankan perintah php artisan key:generate untuk mendapatkan APP_KEY.
+10. lalu jalankan php artisan serve untuk menjalankan projectnya.
